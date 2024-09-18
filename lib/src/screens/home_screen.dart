@@ -1,3 +1,4 @@
+// https://github.com/Baxa073/crypto-bozor/
 import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
@@ -8,6 +9,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'crypto_detail_screen.dart';
 import '../themes/app_theme.dart';
 import 'package:intl/intl.dart'; // Narxni formatlash uchun intl paketini import qilamiz
+// https://github.com/Baxa073/crypto-bozor/
 
 class HomeScreen extends StatefulWidget {
   final bool walletConnected;
@@ -85,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
       final data = json.decode(response.body);
       if (data['data'] != null && data['data'].isNotEmpty && data['data'][0]['adv'] != null) {
         final price = data['data'][0]['adv']['price'];
-        print('Fetched USDT Price: $price'); // Add print statement for debugging
+        print('Fetched USDT Price: $price'); // Add print statement for debugging // https://github.com/Baxa073/crypto-bozor/
         return price;
       } else {
         return "N/A";
@@ -161,7 +163,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final formatter = NumberFormat.currency(locale: 'en_US', symbol: '', decimalDigits: 2);
     return formatter.format(priceInUZS);
   }
-
+// https://github.com/Baxa073/crypto-bozor/
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -225,7 +227,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-
+// https://github.com/Baxa073/crypto-bozor/
   Widget _buildSearchBar() {
     return TextField(
       controller: _searchController,
