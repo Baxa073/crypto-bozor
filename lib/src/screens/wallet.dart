@@ -24,7 +24,7 @@ class WalletScreen extends StatefulWidget {
 
 class _WalletScreenState extends State<WalletScreen> {
   final TonConnect connector = TonConnect(
-    'https://gist.githubusercontent.com/Baxa073/741cca7dc6d5ef4d74863f3067ca27e3/raw/6e399c3ea9c6acc48b9ad97708866a91791bbfd3/gistfile1.txt',
+    'https://gist.githubusercontent.com/YOUR_gistfile1.txt',
   );
 
   bool _isLoading = false;
@@ -34,7 +34,7 @@ class _WalletScreenState extends State<WalletScreen> {
   String currency = 'TON';
   List<Jetton> jettonList = [];
 
-  static const String apiKey = 'AFCDOKTT6MLXI6YAAAAFZFHL26CMB2T4EVOK552BQUZU7NI7266IFCUSXSBCSNLGAOZOSUA';
+  static const String apiKey = 'YOUR API KEY';
 
   @override
   void initState() {
