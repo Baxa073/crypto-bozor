@@ -1,3 +1,6 @@
+// https://github.com/Baxa073/crypto-bozor/
+// https://github.com/Baxa073/crypto-bozor/
+// https://github.com/Baxa073/crypto-bozor/
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_app_check/firebase_app_check.dart';
@@ -87,7 +90,7 @@ void main() async {
     ),
   );
 }
-
+// https://github.com/Baxa073/crypto-bozor/
 class MyApp extends StatelessWidget {
   final bool isUserLoggedIn;
 
@@ -159,7 +162,7 @@ class _MainScreenState extends State<MainScreen> {
       walletAddress = address;
     });
   }
-
+// https://github.com/Baxa073/crypto-bozor/
   List<Widget> get _pages => <Widget>[
     HomeScreen(walletConnected: walletConnected),
     TransactionScreen(walletAddress: walletConnected ? walletAddress : ''),
@@ -213,6 +216,7 @@ class _MainScreenState extends State<MainScreen> {
             label: 'profile'.tr(),
           ),
         ],
+        // https://github.com/Baxa073/crypto-bozor/
         currentIndex: _selectedIndex,
         selectedItemColor: AppTheme.primaryColor,
         unselectedItemColor: AppTheme.textSecondaryColor,
