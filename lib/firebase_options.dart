@@ -47,32 +47,32 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAjf5nl7MPcgoaJ0-AwkUSz5txeL-PczXU',
-    appId: '1:533618721067:web:9377bf139bfd61c185056e',
-    messagingSenderId: '533618721067',
-    projectId: 'finance-uz',
-    authDomain: 'finance-uz.firebaseapp.com',
-    databaseURL: 'https://finance-uz-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'finance-uz.appspot.com',
-    measurementId: 'G-7CVD192928',
+    apiKey: 'REPLACE_WITH_YOUR_API_KEY',
+    appId: 'REPLACE_WITH_YOUR_APP_ID',
+    messagingSenderId: 'REPLACE_WITH_YOUR_MESSAGING_SENDER_ID',
+    projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
+    authDomain: 'REPLACE_WITH_YOUR_AUTH_DOMAIN',
+    databaseURL: 'REPLACE_WITH_YOUR_DATABASE_URL',
+    storageBucket: 'REPLACE_WITH_YOUR_STORAGE_BUCKET',
+    measurementId: 'REPLACE_WITH_YOUR_MEASUREMENT_ID',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDAd8C5co5FbUaKGjA5iE0UjOgFZnKoF8g',
-    appId: '1:533618721067:android:49ee794ba663a92c85056e',
-    messagingSenderId: '533618721067',
-    projectId: 'finance-uz',
-    databaseURL: 'https://finance-uz-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'finance-uz.appspot.com',
+    apiKey: 'REPLACE_WITH_YOUR_API_KEY',
+    appId: 'REPLACE_WITH_YOUR_APP_ID',
+    messagingSenderId: 'REPLACE_WITH_YOUR_MESSAGING_SENDER_ID',
+    projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
+    databaseURL: 'REPLACE_WITH_YOUR_DATABASE_URL',
+    storageBucket: 'REPLACE_WITH_YOUR_STORAGE_BUCKET',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCCrMjxeJzz5OjfxeCJbfeR4GHDmzExEvw',
-    appId: '1:533618721067:ios:a834da5e3791c12785056e',
-    messagingSenderId: '533618721067',
-    projectId: 'finance-uz',
-    databaseURL: 'https://finance-uz-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'finance-uz.appspot.com',
-    iosBundleId: 'uz.buxoriy.uzbekcrypto.uzbekCrypto',
+    apiKey: 'REPLACE_WITH_YOUR_API_KEY',
+    appId: 'REPLACE_WITH_YOUR_APP_ID',
+    messagingSenderId: 'REPLACE_WITH_YOUR_MESSAGING_SENDER_ID',
+    projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
+    databaseURL: 'REPLACE_WITH_YOUR_DATABASE_URL',
+    storageBucket: 'REPLACE_WITH_YOUR_STORAGE_BUCKET',
+    iosBundleId: 'REPLACE_WITH_YOUR_IOS_BUNDLE_ID',
   );
 }
