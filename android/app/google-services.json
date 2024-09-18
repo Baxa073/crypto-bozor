@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "533618721067",
+    "firebase_url": "https://finance-uz-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "finance-uz",
+    "storage_bucket": "finance-uz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533618721067:android:49ee794ba663a92c85056e",
+        "android_client_info": {
+          "package_name": "uz.buxoriy.uzbek_crypto.uzbek_crypto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533618721067-e5sfhunn8diss0gm4lai99cfj0jo2mg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uz.buxoriy.uzbek_crypto.uzbek_crypto",
+            "certificate_hash": "dab8c01a7482d1d86c33492cb9ee9293444b8362"
+          }
+        },
+        {
+          "client_id": "533618721067-m2ghn6kpt1vfirj0f3a1q7taf2q0fjks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAd8C5co5FbUaKGjA5iE0UjOgFZnKoF8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533618721067-m2ghn6kpt1vfirj0f3a1q7taf2q0fjks.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "533618721067-h2tvs075bdhamigpkjbv0ngf7jg597gs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "uz.buxoriy.uzbekcrypto.uzbekCrypto"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
