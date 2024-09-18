@@ -19,7 +19,7 @@ class _TransactionScreenState extends State<TransactionScreen> {
   bool isLoading = true;
   bool hasError = false;
 
-  static const String apiKey = 'AFCDOKTT6MLXI6YAAAAFZFHL26CMB2T4EVOK552BQUZU7NI7266IFCUSXSBCSNLGAOZOSUA';
+  static const String apiKey = 'YOUR API KEY';
 
   @override
   void initState() {
