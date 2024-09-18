@@ -16,7 +16,7 @@ jobs:
       # Flutter SDK ni o'rnatish
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.0.0'  # Yoki kerakli Flutter versiyasini ko'rsating
+          flutter-version: '3.24'  # Yoki kerakli Flutter versiyasini ko'rsating
 
       - name: Install dependencies
         run: flutter pub get
