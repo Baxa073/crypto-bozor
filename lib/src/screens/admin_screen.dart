@@ -1,3 +1,4 @@
+// https://github.com/Baxa073/crypto-bozor/
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -63,6 +64,7 @@ class _AdminPageState extends State<AdminPage> {
   Future<void> _logout() async {
     await _auth.signOut(); // Foydalanuvchini tizimdan chiqarish
     // ProfileScreen sahifasiga qaytarish
+    // https://github.com/Baxa073/crypto-bozor/
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(builder: (context) => ProfileScreen()),
@@ -184,6 +186,7 @@ class _AdminPageState extends State<AdminPage> {
 
               break;
             case 1:
+              // https://github.com/Baxa073/crypto-bozor/
 // Replace with the actual wallet address
 // Replace with the actual API key
               Navigator.pushReplacement(
@@ -196,7 +199,7 @@ class _AdminPageState extends State<AdminPage> {
                 ),
               );
               break;
-
+// https://github.com/Baxa073/crypto-bozor/
             case 2:
               Navigator.pushReplacement(
                 context,
