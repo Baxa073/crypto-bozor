@@ -1,4 +1,9 @@
-name: Dart
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Dart (Flutter)
 
 on:
   push:
@@ -13,15 +18,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Flutter SDK ni o'rnatish
       - uses: subosito/flutter-action@v2
         with:
           flutter-version: 'stable'
 
+      # Paketlarni o'rnatish
       - name: Install dependencies
         run: flutter pub get
 
+      # Kod formatini tekshirish (xohlasangiz)
+      # - name: Verify formatting
+      #   run: flutter format --output=none --set-exit-if-changed .
+
+      # Loyihani tahlil qilish
       - name: Analyze project source
         run: flutter analyze
 
+      # Testlarni ishga tushirish
       - name: Run tests
         run: flutter test
