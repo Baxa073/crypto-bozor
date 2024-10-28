@@ -61,11 +61,11 @@ To set up the Crypto Market project on your local machine, follow these steps:
 
 ## 📸 Screenshots
 
-| Login Screen                     | Wallet Integration                  | Transaction History                  |
+| Login Screen                     | Wallet Integration                  | Wallet Screen                  |
 |----------------------------------|-------------------------------------|--------------------------------------|
 | ![Login](https://github.com/user-attachments/assets/1b4efdc7-c114-4c6b-a573-9e66333b0862) | ![Wallet Integration](https://github.com/user-attachments/assets/bc0cf93f-18bf-4f78-a488-d1ca00ca232e) | ![Transaction History](https://github.com/user-attachments/assets/f7621f63-9204-4a5f-92b5-fe8bab87855d) |
 
-| Notifications                    | Admin Panel                         | Payment Screen                       |
+| Notifications                    | Languages                           |  Screen                       |
 |----------------------------------|-------------------------------------|--------------------------------------|
 | ![Notifications](https://github.com/user-attachments/assets/03c90d7c-4bda-4be8-a4a6-dbfd24e00445) | ![Admin Panel](https://github.com/user-attachments/assets/c8c2abc3-da56-4bfb-be93-c3d1aa8324ba) | ![Payment](https://github.com/user-attachments/assets/db632546-afda-48de-8976-7c2f70a72440) |
 
@@ -81,7 +81,7 @@ We welcome contributions to enhance the Crypto Market app. To contribute:
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-Please make sure to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+Please make sure to follow the [Code of Conduct](https://www.instagram.com/bahodir.buxoriy/).
 
 ---
 
