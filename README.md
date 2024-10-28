@@ -1,72 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypto Market</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>🚀 Crypto Market</h1>
-        <p>An innovative mobile app for cryptocurrency trading in Uzbekistan.</p>
-    </header>
+# 🚀 Crypto Market
 
-    <section id="features">
-        <h2>📱 Key Features</h2>
-        <ul>
-            <li>🔐 <strong>Registration & Login:</strong> Google Sign-In or phone number access.</li>
-            <li>🔗 <strong>Ton Wallet Integration:</strong> Link your Ton Wallet to trade memecoins.</li>
-            <li>💸 <strong>Memecoin Trading:</strong> Sell memecoins in Uzbek soums.</li>
-            <li>🏦 <strong>Payments:</strong> Receive payments in Uzbek soums via Uzcard or Humo cards.</li>
-            <li>📊 <strong>Transaction History:</strong> Track transaction records easily.</li>
-            <li>🔔 <strong>Notifications:</strong> Get real-time push notifications for transactions.</li>
-            <li>👨‍💻 <strong>Admin Panel:</strong> Approve or deny transactions and communicate with users.</li>
-        </ul>
-    </section>
+Crypto Market is an innovative mobile application designed for cryptocurrency trading in Uzbekistan. This app allows users to connect their **Ton Wallet** to trade memecoins and receive payments in Uzbek soums. With an intuitive and secure interface, Crypto Market offers a seamless experience for crypto enthusiasts. 🌍💰
 
-    <section id="technologies">
-        <h2>🛠 Technologies</h2>
-        <ul>
-            <li><strong>Flutter:</strong> Mobile application framework.</li>
-            <li><strong>Dart:</strong> Language used for app logic.</li>
-            <li><strong>Firebase:</strong> Authentication, notifications, and database.</li>
-            <li><strong>TON Blockchain:</strong> Crypto asset and transaction management.</li>
-            <li><strong>Binance API:</strong> Cryptocurrency value management and trading.</li>
-        </ul>
-    </section>
+---
 
-    <section id="setup">
-        <h2>🚀 Getting Started</h2>
-        <p>To run the project on your local machine:</p>
-        <ol>
-            <li>Clone the repository:
-                <pre><code>git clone https://github.com/Baxa073/crypto-bozor.git</code></pre>
-            </li>
-            <li>Navigate to the project directory:
-                <pre><code>cd crypto-bozor</code></pre>
-            </li>
-            <li>Install dependencies:
-                <pre><code>flutter pub get</code></pre>
-            </li>
-            <li>Run the app:
-                <pre><code>flutter run</code></pre>
-            </li>
-        </ol>
-    </section>
+## 📱 Key Features
 
-    <section id="screenshots">
-        <h2>📸 Screenshots</h2>
-        <div class="screenshots">
-            <img src="https://github.com/user-attachments/assets/1b4efdc7-c114-4c6b-a573-9e66333b0862" alt="Screenshot 1">
-            <img src="https://github.com/user-attachments/assets/bc0cf93f-18bf-4f78-a488-d1ca00ca232e" alt="Screenshot 2">
-            <img src="https://github.com/user-attachments/assets/f7621f63-9204-4a5f-92b5-fe8bab87855d" alt="Screenshot 3">
-            <!-- Add other screenshots as needed -->
-        </div>
-    </section>
+- 🔐 **Sign Up & Login**: Secure and easy access with Google Sign-In or phone number.
+- 🔗 **Ton Wallet Integration**: Connect Ton Wallet to manage and trade memecoins.
+- 💸 **Memecoin Trading**: Buy and sell memecoins directly in Uzbek soums.
+- 🏦 **Payments**: Accept payments via Uzcard or Humo cards in Uzbek soums.
+- 📊 **Transaction History**: Track all transaction records in-app.
+- 🔔 **Notifications**: Get real-time push notifications for transaction updates.
+- 👨‍💻 **Admin Panel**: Admins can manage user transactions, approve or deny requests, and communicate with users.
 
-    <footer>
-        <p>&copy; 2024 Crypto Market. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+---
+
+## 🛠 Technology Stack
+
+- **Flutter**: Framework for building cross-platform mobile applications.
+- **Dart**: Language for app development.
+- **Firebase**: Provides backend services for authentication, notifications, and database storage.
+- **TON Blockchain**: Manages crypto assets and transactions securely.
+- **Binance API**: Manages cryptocurrency value updates and trading functionality.
+
+---
+
+## 🚀 Getting Started
+
+To set up the Crypto Market project on your local machine, follow these steps:
+
+### Prerequisites
+
+- **Flutter SDK**: Ensure you have [Flutter installed](https://flutter.dev/docs/get-started/install) on your machine.
+- **Git**: Required to clone the repository.
+
+### Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Baxa073/crypto-bozor.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd crypto-bozor
+    ```
+
+3. **Install dependencies**:
+    ```bash
+    flutter pub get
+    ```
+
+4. **Run the app**:
+    ```bash
+    flutter run
+    ```
+
+---
+
+## 📸 Screenshots
+
+| Login Screen                     | Wallet Integration                  | Transaction History                  |
+|----------------------------------|-------------------------------------|--------------------------------------|
+| ![Login](https://github.com/user-attachments/assets/1b4efdc7-c114-4c6b-a573-9e66333b0862) | ![Wallet Integration](https://github.com/user-attachments/assets/bc0cf93f-18bf-4f78-a488-d1ca00ca232e) | ![Transaction History](https://github.com/user-attachments/assets/f7621f63-9204-4a5f-92b5-fe8bab87855d) |
+
+| Notifications                    | Admin Panel                         | Payment Screen                       |
+|----------------------------------|-------------------------------------|--------------------------------------|
+| ![Notifications](https://github.com/user-attachments/assets/03c90d7c-4bda-4be8-a4a6-dbfd24e00445) | ![Admin Panel](https://github.com/user-attachments/assets/c8c2abc3-da56-4bfb-be93-c3d1aa8324ba) | ![Payment](https://github.com/user-attachments/assets/db632546-afda-48de-8976-7c2f70a72440) |
+
+---
+
+## 🛠 Contributing
+
+We welcome contributions to enhance the Crypto Market app. To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+Please make sure to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙋‍♂️ Support
+
+If you have any questions or issues, feel free to open an issue in the [GitHub Issues](https://github.com/Baxa073/crypto-bozor/issues) section. For further assistance, please contact us at **support@cryptomarket.com**.
+
+---
+
+Happy trading! 💸🚀
