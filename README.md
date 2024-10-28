@@ -1,48 +1,72 @@
-🚀 Crypto Market
-Crypto Market is an innovative mobile application designed for cryptocurrency sales within Uzbekistan. Users can link their Ton Wallet to trade memecoins and receive payments in Uzbek soums. The app offers a streamlined and efficient experience for crypto traders in the region. 🌍💰
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Market</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 Crypto Market</h1>
+        <p>An innovative mobile app for cryptocurrency trading in Uzbekistan.</p>
+    </header>
 
-📱 Key Features
-🔐 Registration & Login: Easy and secure access using Google Sign-In or phone number.
-🔗 Ton Wallet Integration: Link your Ton Wallet to manage and trade memecoins.
-💸 Memecoin Trading: Sell memecoins in Uzbek soums.
-🏦 Payments: Receive payments in Uzbek soums through Uzcard or Humo cards.
-📊 Transaction History: View and track transaction records.
-🔔 Notifications: Receive real-time push notifications for transactions.
-👨‍💻 Admin Panel: Admins can approve/deny transactions and communicate with users.
-🛠 Technologies
-Flutter: Framework for mobile application development.
-Dart: Programming language for app logic.
-Firebase: Provides authentication, notifications, and database solutions.
-TON Blockchain: Manages crypto assets and transactions.
-Binance API: Handles cryptocurrency values and trading.
-🚀 Getting Started
-To run the project on your local machine:
+    <section id="features">
+        <h2>📱 Key Features</h2>
+        <ul>
+            <li>🔐 <strong>Registration & Login:</strong> Google Sign-In or phone number access.</li>
+            <li>🔗 <strong>Ton Wallet Integration:</strong> Link your Ton Wallet to trade memecoins.</li>
+            <li>💸 <strong>Memecoin Trading:</strong> Sell memecoins in Uzbek soums.</li>
+            <li>🏦 <strong>Payments:</strong> Receive payments in Uzbek soums via Uzcard or Humo cards.</li>
+            <li>📊 <strong>Transaction History:</strong> Track transaction records easily.</li>
+            <li>🔔 <strong>Notifications:</strong> Get real-time push notifications for transactions.</li>
+            <li>👨‍💻 <strong>Admin Panel:</strong> Approve or deny transactions and communicate with users.</li>
+        </ul>
+    </section>
 
-Prerequisites
-Ensure you have Flutter and Git installed.
+    <section id="technologies">
+        <h2>🛠 Technologies</h2>
+        <ul>
+            <li><strong>Flutter:</strong> Mobile application framework.</li>
+            <li><strong>Dart:</strong> Language used for app logic.</li>
+            <li><strong>Firebase:</strong> Authentication, notifications, and database.</li>
+            <li><strong>TON Blockchain:</strong> Crypto asset and transaction management.</li>
+            <li><strong>Binance API:</strong> Cryptocurrency value management and trading.</li>
+        </ul>
+    </section>
 
-Installation
-Clone the repository:
+    <section id="setup">
+        <h2>🚀 Getting Started</h2>
+        <p>To run the project on your local machine:</p>
+        <ol>
+            <li>Clone the repository:
+                <pre><code>git clone https://github.com/Baxa073/crypto-bozor.git</code></pre>
+            </li>
+            <li>Navigate to the project directory:
+                <pre><code>cd crypto-bozor</code></pre>
+            </li>
+            <li>Install dependencies:
+                <pre><code>flutter pub get</code></pre>
+            </li>
+            <li>Run the app:
+                <pre><code>flutter run</code></pre>
+            </li>
+        </ol>
+    </section>
 
-bash
-Копировать код
-git clone https://github.com/Baxa073/crypto-bozor.git
-Navigate to the project directory:
+    <section id="screenshots">
+        <h2>📸 Screenshots</h2>
+        <div class="screenshots">
+            <img src="https://github.com/user-attachments/assets/1b4efdc7-c114-4c6b-a573-9e66333b0862" alt="Screenshot 1">
+            <img src="https://github.com/user-attachments/assets/bc0cf93f-18bf-4f78-a488-d1ca00ca232e" alt="Screenshot 2">
+            <img src="https://github.com/user-attachments/assets/f7621f63-9204-4a5f-92b5-fe8bab87855d" alt="Screenshot 3">
+            <!-- Add other screenshots as needed -->
+        </div>
+    </section>
 
-bash
-Копировать код
-cd crypto-bozor
-Install dependencies:
-
-bash
-Копировать код
-flutter pub get
-Run the app:
-
-bash
-Копировать код
-flutter run
-📸 Screenshots
-<img width="298" alt="Screenshot 1" src="https://github.com/user-attachments/assets/1b4efdc7-c114-4c6b-a573-9e66333b0862"> <img width="287" alt="Screenshot 2" src="https://github.com/user-attachments/assets/bc0cf93f-18bf-4f78-a488-d1ca00ca232e"> <img width="295" alt="Screenshot 3" src="https://github.com/user-attachments/assets/f7621f63-9204-4a5f-92b5-fe8bab87855d"> <img width="298" alt="Screenshot 4" src="https://github.com/user-attachments/assets/03c90d7c-4bda-4be8-a4a6-dbfd24e00445"> <img width="298" alt="Screenshot 5" src="https://github.com/user-attachments/assets/c8c2abc3-da56-4bfb-be93-c3d1aa8324ba"> <img width="296" alt="Screenshot 6" src="https://github.com/user-attachments/assets/db632546-afda-48de-8976-7c2f70a72440"> <img width="289" alt="Screenshot 7" src="https://github.com/user-attachments/assets/2d76ecef-88f7-44ea-9746-bf65c543c4a4"> <img width="295" alt="Screenshot 8" src="https://github.com/user-attachments/assets/ad98ce93-9e57-45c9-9f6c-fa61a9b91447"> <img width="293" alt="Screenshot 9" src="https://github.com/user-attachments/assets/df0dc9c7-92e5-4f18-9087-d6a4521736c0">
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+    <footer>
+        <p>&copy; 2024 Crypto Market. All rights reserved.</p>
+    </footer>
+</body>
+</html>
