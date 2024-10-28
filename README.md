@@ -81,19 +81,9 @@ We welcome contributions to enhance the Crypto Market app. To contribute:
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-Please make sure to follow the [Code of Conduct](https://www.instagram.com/bahodir.buxoriy/).
-
 ---
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙋‍♂️ Support
-
-If you have any questions or issues, feel free to open an issue in the [GitHub Issues](https://github.com/Baxa073/crypto-bozor/issues) section. For further assistance, please contact us at **support@cryptomarket.com**.
 
 ---
 
